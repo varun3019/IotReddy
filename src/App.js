@@ -23,7 +23,7 @@ const App = () => {
     const duration = audioElem.current.duration;
     const ct = audioElem.current.currentTime;
 
-    setCurrentSong({ ...currentSong, "progress": ct / duration * 100, "length": duration })
+    setCurrentSong({ ...currentSong, "progress": ct / duration * 100, "length": duration } )
 
   }
 
